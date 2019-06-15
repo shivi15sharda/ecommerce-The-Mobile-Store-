@@ -46,8 +46,8 @@ public class Cart extends AppCompatActivity {
                             @Override
                             public void onEvent(QuerySnapshot value, FirebaseFirestoreException e) {
                                 for (QueryDocumentSnapshot doc : value) {
-                                    String aa = doc.getString("model");
-                                    String bb = doc.getString("price");
+                                    String aa = doc.getString("ModelName");
+                                    String bb = doc.getString("Price");
                                     arrayList.add(aa + "\n" + bb);
                                 }
                                 ArrayAdapter ad = new ArrayAdapter(Cart.this, android.R.layout.
