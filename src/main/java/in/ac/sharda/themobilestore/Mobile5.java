@@ -33,11 +33,11 @@ public class Mobile5 extends AppCompatActivity {
                 startActivity(i);
 
         Map<String, Object> userdetail = new HashMap<>();
-        userdetail.put("ModelName: ", "Pixel 3A");
-        userdetail.put("Price: ", "39,099/-");
-        userdetail.put("Portal: ", "2G/3G/4G LTE");
-        userdetail.put("Company: ", "Google LLC");
-        userdetail.put("Warranty: ", "6 years");
+        userdetail.put("ModelName", "Pixel 3A");
+        userdetail.put("Price", "39,099/-");
+        userdetail.put("Portal", "2G/3G/4G LTE");
+        userdetail.put("Company", "Google LLC");
+        userdetail.put("Warranty", "6 years");
         db.collection("userdetail").document("Pixel 3A").set(userdetail).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
             public void onSuccess(Void aVoid) {
