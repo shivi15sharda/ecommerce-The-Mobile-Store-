@@ -33,11 +33,11 @@ public class Mobile2 extends AppCompatActivity {
                 startActivity(i);
 
                 Map<String, Object> userdetail = new HashMap<>();
-                userdetail.put("ModelName: ", "Vivo V9");
-                userdetail.put("Price: ", "14,999/-");
-                userdetail.put("Portal: ", "4G LTE");
-                userdetail.put("Company: ", "Vivo");
-                userdetail.put("Warranty: ", "1.5 years");
+                userdetail.put("ModelName", "Vivo V9");
+                userdetail.put("Price", "14,999/-");
+                userdetail.put("Portal", "4G LTE");
+                userdetail.put("Company", "Vivo");
+                userdetail.put("Warranty", "1.5 years");
                 db.collection("userdetail").document("Vivo V9").set(userdetail).addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void aVoid) {
