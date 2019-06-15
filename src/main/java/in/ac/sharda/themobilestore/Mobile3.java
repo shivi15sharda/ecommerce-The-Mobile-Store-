@@ -34,11 +34,11 @@ public class Mobile3 extends AppCompatActivity {
 
 
                 Map<String, Object> userdetail = new HashMap<>();
-                userdetail.put("ModelName: ", "MI 9");
-                userdetail.put("Price: ", "12,099/-");
-                userdetail.put("Portal: ", "3G/4G LTE");
-                userdetail.put("Company: ", "Redmi");
-                userdetail.put("Warranty: ", "3 years");
+                userdetail.put("ModelName", "MI 9");
+                userdetail.put("Price", "12,099/-");
+                userdetail.put("Portal", "3G/4G LTE");
+                userdetail.put("Company", "Redmi");
+                userdetail.put("Warranty", "3 years");
                 db.collection("userdetail").document("MI 9").set(userdetail).addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void aVoid) {
