@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mob2"
+    android:layout_height="match_parent"
+    tools:context=".MobileList">
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="380dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="100dp"
+        android:background="#E5F73E"
+        android:text="ASUS Zenfone 5Z"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="100dp"
+        android:background="#3EF7D2"
+        android:text="Vivo V9"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="100dp"
+        android:background="#F13EF7"
+        android:text="Xiomi 9"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="100dp"
+        android:background="#F7AD3E"
+        android:text="Oppo Reno"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="369dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="100dp"
+        android:background="#F5C3BF"
+        android:text="Google Pixel"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="100dp"
+        android:background="#0091D4"
+        android:text="Samsung galaxy"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="100dp"
+        android:background="#44F73E"
+        android:text="Lenovo K6"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/b8"
+        android:layout_width="211dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="220dp"
+        android:background="#F77FA7"
+        android:text="LG Q7+"
+        android:textSize="28dp" />
+
+</LinearLayout>

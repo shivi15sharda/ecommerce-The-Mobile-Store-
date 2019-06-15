@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mob3"
+    android:layout_height="match_parent"
+    tools:context=".Cart">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="419dp"></ListView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="125dp"
+        android:layout_marginTop="16sp"
+        android:textColor="#FCFCFC"
+        android:text="Above are the details for your order, go back to review, or tap 'place order'"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="248dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        android:background="#F7BA60"
+        android:text="Place Order"
+        android:textSize="26sp" />
+
+</LinearLayout>

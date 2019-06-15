@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mob5"
+    android:orientation="vertical"
+    tools:context=".Mobile3">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:textSize="28dp"
+        android:text="Model:    Redmi MI 9"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:textSize="28dp"
+        android:text="Price:    12,099/-"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:textSize="28dp"
+        android:text="SIM, GSM Portal:  3G/4G LTE"/>
+
+    <ImageView
+        android:layout_width="354dp"
+        android:layout_height="113dp"
+        android:src="@drawable/mi" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Company:    Xiomi  Ltd"
+        android:textSize="28dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:textSize="28dp"
+        android:text="Warranty: 3 years after purchase"/>
+
+    <Button
+        android:id="@+id/cart"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="89dp"
+        android:background="#02FF91"
+        android:text="Add to Cart"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

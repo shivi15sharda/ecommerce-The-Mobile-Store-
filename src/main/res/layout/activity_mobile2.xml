@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mob5"
+    android:orientation="vertical"
+    tools:context=".Mobile2">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:textSize="28dp"
+        android:text="Model:    Vivo V9"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:textSize="28dp"
+        android:text="Price:    14,999/-"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:textSize="28dp"
+        android:text="SIM, GSM Portal:  4G LTE"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="94dp"
+        android:src="@drawable/vivo" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Company:    Vivo Phones Ltd"
+        android:textSize="28dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:textSize="28dp"
+        android:text="Warranty: 1.5 years after purchase"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="69dp"
+        android:background="#02FF91"
+        android:text="Add to Cart"
+        android:textStyle="bold"
+        android:layout_marginLeft="89dp"
+        android:layout_marginRight="89dp"
+        android:textSize="30dp"
+        android:id="@+id/cart"/>
+
+
+
+
+</LinearLayout>
