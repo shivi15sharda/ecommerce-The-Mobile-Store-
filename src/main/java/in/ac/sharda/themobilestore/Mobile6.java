@@ -34,10 +34,10 @@ public class Mobile6 extends AppCompatActivity {
 
 
         Map<String, Object> userdetail = new HashMap<>();
-        userdetail.put("ModelName: ", "Galaxy M20");
-        userdetail.put("Price: ", "12,000/-");
-        userdetail.put("Portal: ", "3G/4G LTE");
-        userdetail.put("Company: ", "Samsung");
+        userdetail.put("ModelName", "Galaxy M20");
+        userdetail.put("Price", "12,000/-");
+        userdetail.put("Portal", "3G/4G LTE");
+        userdetail.put("Company", "Samsung");
         userdetail.put("Warranty: ", "4 years");
         db.collection("userdetail").document("Galaxy M20").set(userdetail).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
