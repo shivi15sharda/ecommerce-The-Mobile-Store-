@@ -34,10 +34,10 @@ public class Mobile7 extends AppCompatActivity {
 
 
         Map<String, Object> userdetail = new HashMap<>();
-        userdetail.put("ModelName: ", "Lenovo K6");
-        userdetail.put("Price: ", "16,099/-");
-        userdetail.put("Portal: ", "3G/4G LTE");
-        userdetail.put("Company: ", "Lenovo");
+        userdetail.put("ModelName", "Lenovo K6");
+        userdetail.put("Price", "16,099/-");
+        userdetail.put("Portal", "3G/4G LTE");
+        userdetail.put("Company", "Lenovo");
         userdetail.put("Warranty: ", "2 years");
         db.collection("userdetail").document("Lenovo K6").set(userdetail).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
