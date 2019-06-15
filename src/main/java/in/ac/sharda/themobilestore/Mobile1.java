@@ -33,11 +33,11 @@ public class Mobile1 extends AppCompatActivity {
                 Intent i = new Intent(Mobile1.this, Cart.class);
                 startActivity(i);
                 Map<String, Object> userdetail = new HashMap<>();
-                userdetail.put("ModelName: ", "Asus Zenfone");
-                userdetail.put("Price: ", "25,999/-");
-                userdetail.put("Portal: ", "2G/3G/4G LTE");
-                userdetail.put("Company: ", "ASUS Tek Ltd");
-                userdetail.put("Warranty: ", "5 years");
+                userdetail.put("ModelName", "Asus Zenfone");
+                userdetail.put("Price", "25,999/-");
+                userdetail.put("Portal", "2G/3G/4G LTE");
+                userdetail.put("Company", "ASUS Tek Ltd");
+                userdetail.put("Warranty", "5 years");
                 db.collection("userdetail").document("ASUS Zenfone").set(userdetail).
                         addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
