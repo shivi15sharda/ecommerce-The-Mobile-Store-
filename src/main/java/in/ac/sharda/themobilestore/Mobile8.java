@@ -34,11 +34,11 @@ public class Mobile8 extends AppCompatActivity {
 
 
         Map<String, Object> userdetail = new HashMap<>();
-        userdetail.put("ModelName: ", "LG Q7");
-        userdetail.put("Price: ", "26,009/-");
-        userdetail.put("Portal: ", "2G/3G/4G LTE");
-        userdetail.put("Company: ", "LG Technologies");
-        userdetail.put("Warranty: ", "5 years");
+        userdetail.put("ModelName", "LG Q7");
+        userdetail.put("Price", "26,009/-");
+        userdetail.put("Portal", "2G/3G/4G LTE");
+        userdetail.put("Company", "LG Technologies");
+        userdetail.put("Warranty", "5 years");
         db.collection("userdetail").document("LG Q7").set(userdetail).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
             public void onSuccess(Void aVoid) {
